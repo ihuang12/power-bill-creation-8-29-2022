@@ -5,6 +5,7 @@ public class PowerBillCreation {
         this.units = units;
     }
 
+    // calculation
     void calculateBill() {
         double bill = 0;
         if(units < 100) {
